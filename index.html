@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="University Research Project - CDAP Style Professional Portfolio"
+    />
+    <title>VisionBridge - Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <img
+            src="assets\logo.svg"
+            alt="VisionBridge Logo"
+            class="logo-image"
+          />
+          <!-- <a href="index.html" class="logo">VisionBridge<span class="logo-accent">Mobile</span></a> -->
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav id="navMenu">
+            <ul>
+              <li><a href="index.html" class="nav-link active">Home</a></li>
+              <li><a href="domain.html" class="nav-link">Domain</a></li>
+              <li class="dropdown">
+                <a href="#" class="nav-link dropdown-toggle">
+                  Milestones <span class="dropdown-arrow">▼</span>
+                </a>
+                <div class="dropdown-menu">
+                  <a href="milestones.html#proposal">Project Proposal</a>
+                  <a href="milestones.html#progress1">Progress 1</a>
+                  <a href="milestones.html#progress2">Progress 2</a>
+                  <a href="milestones.html#final">Final Assessment</a>
+                  <a href="milestones.html#viva">Viva</a>
+                </div>
+              </li>
+              <li><a href="documents.html" class="nav-link">Documents</a></li>
+              <li><a href="slides.html" class="nav-link">Slides</a></li>
+              <li><a href="about.html" class="nav-link">About</a></li>
+              <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              VisionBridge: Empowering the Future of Inclusive ICT Education
+            </h1>
+            <p class="hero-subtitle">
+              An AI-Driven Multimodal Learning Ecosystem for Visually Impaired
+              Students in Sri Lanka.
+            </p>
+            <p class="hero-description">
+              VisionBridge is a pioneering research initiative dedicated to
+              breaking the barriers faced by visually impaired students in
+              mastering ICT. By integrating advanced Edge-based Gesture Struggle
+              Detection and AI-powered Diagram Interpretation, we provide a
+              seamless, independent learning experience. Our mission is to
+              ensure that no student is left behind due to visual challenges,
+              especially in mastering complex logical concepts of the G.C.E. O/L
+              ICT syllabus.
+            </p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap">
+              <a href="domain.html" class="btn">Explore Research</a>
+              <a href="documents.html" class="btn btn-secondary"
+                >View Documents</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-container">
+          <h2 class="section-title">Project Overview</h2>
+          <div class="grid grid-3">
+            <div class="card">
+              <h3>📚 Research Focus</h3>
+              <p>
+                Addressing the accessibility barriers in ICT education for
+                visually impaired (VI) students in Sri Lanka. We focus on
+                bridging the gap between standard curricula and inclusive
+                digital learning tools through multimodal interaction.
+              </p>
+            </div>
+            <div class="card">
+              <h3>🎯 Key Objectives</h3>
+              <p>
+                To develop an edge-based gesture struggle detection model, an
+                AI-driven diagram interpreter, and a haptic-audio feedback
+                system to facilitate independent learning for Grade 10 and 11 VI
+                students.
+              </p>
+            </div>
+            <div class="card">
+              <h3>✅ Deliverables</h3>
+              <p>
+                A functional mobile learning ecosystem, comprehensive research
+                findings on low-latency struggle detection, and technical
+                publications validated through testing with the Employers’
+                Federation of Ceylon (EFC).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-container">
+          <h2 class="section-title">Research Highlights</h2>
+          <div class="grid grid-2">
+            <div style="padding: 2rem">
+              <h3>Edge-based Struggle Detection</h3>
+              <p>
+                Our core novelty lies in an offline-ready Random Forest
+                Classifier (RFC) implemented in JavaScript. It identifies
+                navigational struggles in real-time with 85% accuracy and
+                provides adaptive, simplified audio instructions.
+              </p>
+            </div>
+            <div style="padding: 2rem">
+              <h3>Multimodal Innovation</h3>
+              <p>
+                VisionBridge leverages a combination of custom gestures, haptic
+                (vibration) feedback, and high-quality audio cues to create a
+                spatial mental map for users navigating complex ICT lessons.
+              </p>
+            </div>
+            <div style="padding: 2rem">
+              <h3>Predictive Behavioral Analytics</h3>
+              <p>
+                By utilizing XGBoost (F1-Macro: 0.935), we analyze student
+                interaction logs to compute a Behavioral Learning Difficulty
+                Index (BLDI), providing teachers with data-driven insights into
+                student performance.
+              </p>
+            </div>
+            <div style="padding: 2rem">
+              <h3>Inclusive Diagram Interpretation</h3>
+              <p>
+                Leveraging the Gemini Vision API, we transform visually complex
+                logic gates and truth tables into descriptive auditory formats,
+                making abstract ICT concepts accessible for the first time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-container">
+          <h2 class="section-title">Quick Access</h2>
+          <div class="grid grid-4">
+            <div class="card text-center">
+              <h4 style="margin-bottom: 1rem">📖 Research Domain</h4>
+              <p>
+                Explore our detailed problem statement, research gaps, and the
+                technological framework behind VisionBridge.
+              </p>
+              <a
+                href="domain.html"
+                class="btn"
+                style="margin-top: 1rem; display: inline-block"
+                >Learn More</a
+              >
+            </div>
+            <div class="card text-center">
+              <h4 style="margin-bottom: 1rem">📅 Milestones</h4>
+              <p>
+                Follow our journey from project proposal to pilot testing with
+                VI students at EFC.
+              </p>
+              <a
+                href="milestones.html"
+                class="btn"
+                style="margin-top: 1rem; display: inline-block"
+                >View Timeline</a
+              >
+            </div>
+            <div class="card text-center">
+              <h4 style="margin-bottom: 1rem">📄 Documents</h4>
+              <p>
+                Access our project proposals, research papers, and technical
+                reports.
+              </p>
+              <a
+                href="documents.html"
+                class="btn"
+                style="margin-top: 1rem; display: inline-block"
+                >Download</a
+              >
+            </div>
+            <div class="card text-center">
+              <h4 style="margin-bottom: 1rem">👥 Team</h4>
+              <p>
+                Meet the team of four dedicated researchers developing
+                VisionBridge.
+              </p>
+              <a
+                href="about.html"
+                class="btn"
+                style="margin-top: 1rem; display: inline-block"
+                >See Team</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+ <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>VisionBridge Mobile</h4>
+          <p>
+            Professional research project exploring advanced computing systems
+            and methodologies.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <a href="domain.html">Research Domain</a><br />
+          <a href="milestones.html">Milestones</a><br />
+          <a href="documents.html">Documents</a><br />
+          <a href="slides.html">Slides</a>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <p>Email: Thathsaramenusha2001@gmail.com</p>
+          <p>Phone: 070 3565146</p>
+          <p>Address: Sri Lanka Institute of Infoormation Technology, 
+            Malabe, Sri Lanka</p>
+        </div>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VisionBridge Mobile. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Project Milestones - Timeline and Assessment Details"
+    />
+    <title>Project Milestones - Timeline</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <img
+            src="assets\logo.svg"
+            alt="VisionBridge Logo"
+            class="logo-image"
+          />
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav id="navMenu">
+            <ul>
+              <li><a href="index.html" class="nav-link">Home</a></li>
+              <li><a href="domain.html" class="nav-link">Domain</a></li>
+              <li class="dropdown">
+                <a href="#" class="nav-link dropdown-toggle">
+                  Milestones <span class="dropdown-arrow">▼</span>
+                </a>
+                <div class="dropdown-menu">
+                  <a href="milestones.html#proposal">Project Proposal</a>
+                  <a href="milestones.html#progress1">Progress 1</a>
+                  <a href="milestones.html#progress2">Progress 2</a>
+                  <a href="milestones.html#final">Final Assessment</a>
+                  <a href="milestones.html#viva">Viva</a>
+                </div>
+              </li>
+              <li><a href="documents.html" class="nav-link">Documents</a></li>
+              <li><a href="slides.html" class="nav-link">Slides</a></li>
+              <li><a href="about.html" class="nav-link">About</a></li>
+              <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Page Header -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title">Project Milestones</h1>
+            <p class="hero-subtitle">
+              Track Project Progress and Assessment Details
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Timeline Overview -->
+      <section>
+        <div class="section-container">
+          <h2 class="section-title">Project Timeline</h2>
+          <div style="overflow-x: auto">
+            <table>
+              <thead>
+                <tr>
+                  <th>Phase</th>
+                  <th>Milestone</th>
+                  <th>Date</th>
+                  <th>Status</th>
+                  <th>Marks</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Phase 1</td>
+                  <td>Project Proposal</td>
+                  <td>August 15, 2025</td>
+                  <td><span class="badge badge-success">Completed</span></td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>Phase 2</td>
+                  <td>Progress Presentation 1</td>
+                  <td>January 06, 2026</td>
+                  <td><span class="badge badge-success">Completed</span></td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <td>Phase 3</td>
+                  <td>Progress Presentation 2</td>
+                  <td>March 10, 2026</td>
+                  <td><span class="badge badge-success">Completed</span></td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>Phase 4</td>
+                  <td>Final Assessment</td>
+                  <td>May 13, 2026</td>
+                  <td><span class="badge badge-info">Upcoming</span></td>
+                  <td>30</td>
+                </tr>
+                <tr>
+                  <td>Phase 5</td>
+                  <td>Viva (Oral Examination)</td>
+                  <td>May 05, 2026</td>
+                  <td><span class="badge badge-info">Upcoming</span></td>
+                  <td>25</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Detailed Milestones with Accordion -->
+      <section>
+        <div class="section-container">
+          <h2 class="section-title">Milestone Details</h2>
+
+          <!-- Accordion Container -->
+          <div class="accordion">
+            <!-- Milestone 1: Project Proposal -->
+            <div class="accordion-item" id="proposal">
+              <div class="accordion-header">
+                <div>
+                  <h4 style="margin-bottom: 0">Phase 1: Project Proposal</h4>
+                  <p
+                    class="text-muted"
+                    style="margin-bottom: 0; font-size: 0.9rem"
+                  >
+                    January 15, 2026
+                  </p>
+                </div>
+                <span class="accordion-arrow">▼</span>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-body">
+                  <h4>Overview</h4>
+                  <p>
+                    The initial project proposal submission defining the
+                    research topic, objectives, problem statement, and proposed
+                    approach. This phase includes presentation of the research
+                    plan and timeline to supervisors.
+                  </p>
+
+                  <h4 style="margin-top: 1.5rem">Key Deliverables</h4>
+                  <ul style="margin: 0.5rem 0; padding-left: 2rem">
+                    <li>Project proposal document</li>
+                    <li>Research plan and timeline</li>
+                    <li>Presentation to supervisors</li>
+                    <li>Initial literature review outline</li>
+                  </ul>
+
+                  <div
+                    style="
+                      display: grid;
+                      grid-template-columns: repeat(
+                        auto-fit,
+                        minmax(200px, 1fr)
+                      );
+                      gap: 1rem;
+                      margin-top: 1.5rem;
+                    "
+                  >
+                    <div>
+                      <p><strong>Date:</strong> August 15, 2025</p>
+                      <p><strong>Marks Allocated:</strong> 10</p>
+                    </div>
+                    <div>
+                      <p>
+                        <strong>Status:</strong>
+                        <span class="badge badge-success">Completed</span>
+                      </p>
+                      <!-- <p><strong>Marks Obtained:</strong> 9/10</p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Milestone 2: Progress 1 -->
+            <div class="accordion-item" id="progress1">
+              <div class="accordion-header">
+                <div>
+                  <h4 style="margin-bottom: 0">
+                    Phase 2: Progress Presentation 1
+                  </h4>
+                  <p
+                    class="text-muted"
+                    style="margin-bottom: 0; font-size: 0.9rem"
+                  >
+                    January 06, 2026
+                  </p>
+                </div>
+                <span class="accordion-arrow">▼</span>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-body">
+                  <h4>Overview</h4>
+                  <p>
+                    First progress presentation showcasing literature review
+                    findings, research gap analysis, and preliminary design.
+                    Feedback from committee and supervisors is incorporated into
+                    the project.
+                  </p>
+
+                  <h4 style="margin-top: 1.5rem">Key Deliverables</h4>
+                  <ul style="margin: 0.5rem 0; padding-left: 2rem">
+                    <li>Complete literature survey</li>
+                    <li>Gap analysis report</li>
+                    <li>Preliminary system design</li>
+                    <li>Progress presentation slides</li>
+                    <li>Updated project timeline</li>
+                  </ul>
+
+                  <div
+                    style="
+                      display: grid;
+                      grid-template-columns: repeat(
+                        auto-fit,
+                        minmax(200px, 1fr)
+                      );
+                      gap: 1rem;
+                      margin-top: 1.5rem;
+                    "
+                  >
+                    <div>
+                      <p><strong>Date:</strong> January 06, 2026</p>
+                      <p><strong>Marks Allocated:</strong> 15</p>
+                    </div>
+                    <div>
+                      <p>
+                        <strong>Status:</strong>
+                        <span class="badge badge-success">Completed</span>
+                      </p>
+                      <!-- <p><strong>Marks Obtained:</strong> 14/15</p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Milestone 3: Progress 2 -->
+            <div class="accordion-item" id="progress2">
+              <div class="accordion-header">
+                <div>
+                  <h4 style="margin-bottom: 0">
+                    Phase 3: Progress Presentation 2
+                  </h4>
+                  <p
+                    class="text-muted"
+                    style="margin-bottom: 0; font-size: 0.9rem"
+                  >
+                    March 10, 2026
+                  </p>
+                </div>
+                <span class="accordion-arrow">▼</span>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-body">
+                  <h4>Overview</h4>
+                  <p>
+                    Second progress presentation detailing system design,
+                    implementation progress, and preliminary results.
+                    Demonstration of working prototype and technical
+                    achievements.
+                  </p>
+
+                  <h4 style="margin-top: 1.5rem">Key Deliverables</h4>
+                  <ul style="margin: 0.5rem 0; padding-left: 2rem">
+                    <li>Complete system design documentation</li>
+                    <li>Implementation progress report</li>
+                    <li>Working prototype demonstration</li>
+                    <li>Preliminary experimental results</li>
+                    <li>Technical presentation slides</li>
+                  </ul>
+
+                  <div
+                    style="
+                      display: grid;
+                      grid-template-columns: repeat(
+                        auto-fit,
+                        minmax(200px, 1fr)
+                      );
+                      gap: 1rem;
+                      margin-top: 1.5rem;
+                    "
+                  >
+                    <div>
+                      <p><strong>Date:</strong> March 10, 2026</p>
+                      <p><strong>Marks Allocated:</strong> 20</p>
+                    </div>
+                    <div>
+                      <p>
+                        <strong>Status:</strong>
+                        <span class="badge badge-success">Completed</span>
+                      </p>
+                      <!-- <p><strong>Marks Obtained:</strong> -</p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Milestone 4: Final Assessment -->
+            <div class="accordion-item" id="final">
+              <div class="accordion-header">
+                <div>
+                  <h4 style="margin-bottom: 0">Phase 4: Final Assessment</h4>
+                  <p
+                    class="text-muted"
+                    style="margin-bottom: 0; font-size: 0.9rem"
+                  >
+                    May 13, 2026
+                  </p>
+                </div>
+                <span class="accordion-arrow">▼</span>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-body">
+                  <h4>Overview</h4>
+                  <p>
+                    Final project presentation with complete implementation,
+                    comprehensive results, and detailed analysis. Submission of
+                    thesis document and technical reports.
+                  </p>
+
+                  <h4 style="margin-top: 1.5rem">Key Deliverables</h4>
+                  <ul style="margin: 0.5rem 0; padding-left: 2rem">
+                    <li>Complete working implementation</li>
+                    <li>Comprehensive research findings</li>
+                    <li>Final thesis document</li>
+                    <li>Technical reports and appendices</li>
+                    <li>Final presentation slides</li>
+                    <li>Performance evaluation results</li>
+                  </ul>
+
+                  <div
+                    style="
+                      display: grid;
+                      grid-template-columns: repeat(
+                        auto-fit,
+                        minmax(200px, 1fr)
+                      );
+                      gap: 1rem;
+                      margin-top: 1.5rem;
+                    "
+                  >
+                    <div>
+                      <p><strong>Date:</strong> May 13, 2026</p>
+                      <p><strong>Marks Allocated:</strong> 30</p>
+                    </div>
+                    <div>
+                      <p>
+                        <strong>Status:</strong>
+                        <span class="badge badge-info">Upcoming</span>
+                      </p>
+                      <!-- <p><strong>Marks Obtained:</strong> -</p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Milestone 5: Viva -->
+            <div class="accordion-item" id="viva">
+              <div class="accordion-header">
+                <div>
+                  <h4 style="margin-bottom: 0">
+                    Phase 5: Viva (Oral Examination)
+                  </h4>
+                  <p
+                    class="text-muted"
+                    style="margin-bottom: 0; font-size: 0.9rem"
+                  >
+                    May 05, 2026
+                  </p>
+                </div>
+                <span class="accordion-arrow">▼</span>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-body">
+                  <h4>Overview</h4>
+                  <p>
+                    Final oral examination where research work is defended
+                    before the examination committee. Discussion of methodology,
+                    findings, and contributions to the field.
+                  </p>
+
+                  <h4 style="margin-top: 1.5rem">Key Components</h4>
+                  <ul style="margin: 0.5rem 0; padding-left: 2rem">
+                    <li>Oral defense of research</li>
+                    <li>Questions from examination committee</li>
+                    <li>Clarification of methodology</li>
+                    <li>Discussion of findings and impact</li>
+                    <li>Contribution to field assessment</li>
+                  </ul>
+
+                  <div
+                    style="
+                      display: grid;
+                      grid-template-columns: repeat(
+                        auto-fit,
+                        minmax(200px, 1fr)
+                      );
+                      gap: 1rem;
+                      margin-top: 1.5rem;
+                    "
+                  >
+                    <div>
+                      <p><strong>Date:</strong> May 05, 2026</p>
+                      <p><strong>Marks Allocated:</strong> 25</p>
+                    </div>
+                    <div>
+                      <p>
+                        <strong>Status:</strong>
+                        <span class="badge badge-info">Upcoming</span>
+                      </p>
+                      <!-- <p><strong>Marks Obtained:</strong> -</p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Total Marks Summary -->
+          <!-- <div
+            style="
+              margin-top: 2rem;
+              padding: 1.5rem;
+              background-color: var(--light-grey);
+              border-radius: var(--border-radius);
+              border-left: 4px solid var(--primary-blue);
+            "
+          >
+            <h4>Total Marks Summary</h4>
+            <p>
+              <strong>Total Marks Available:</strong> 100 (10 + 15 + 20 + 30 +
+              25)
+            </p>
+            <p><strong>Marks Obtained So Far:</strong> 23/25</p>
+            <p><strong>Completion Status:</strong> 40% Complete</p>
+          </div> -->
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+  <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>VisionBridge Mobile</h4>
+          <p>
+            Professional research project exploring advanced computing systems
+            and methodologies.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <a href="domain.html">Research Domain</a><br />
+          <a href="milestones.html">Milestones</a><br />
+          <a href="documents.html">Documents</a><br />
+          <a href="slides.html">Slides</a>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <p>Email: Thathsaramenusha2001@gmail.com</p>
+          <p>Phone: 070 3565146</p>
+          <p>Address: Sri Lanka Institute of Infoormation Technology, 
+            Malabe, Sri Lanka</p>
+        </div>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VisionBridge Mobile. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact VisionBridge Research Team - Get in Touch"
+    />
+    <title>Contact | VisionBridge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <img
+            src="assets/logo.svg"
+            alt="VisionBridge Logo"
+            class="logo-image"
+          />
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav id="navMenu">
+            <ul>
+              <li><a href="index.html" class="nav-link">Home</a></li>
+              <li><a href="domain.html" class="nav-link">Domain</a></li>
+              <li class="dropdown">
+                <a href="#" class="nav-link dropdown-toggle">
+                  Milestones <span class="dropdown-arrow">▼</span>
+                </a>
+                <div class="dropdown-menu">
+                  <a href="milestones.html#proposal">Project Proposal</a>
+                  <a href="milestones.html#progress1">Progress 1</a>
+                  <a href="milestones.html#progress2">Progress 2</a>
+                  <a href="milestones.html#final">Final Assessment</a>
+                  <a href="milestones.html#viva">Viva</a>
+                </div>
+              </li>
+              <li><a href="documents.html" class="nav-link">Documents</a></li>
+              <li><a href="slides.html" class="nav-link">Slides</a></li>
+              <li><a href="about.html" class="nav-link">About</a></li>
+              <li>
+                <a href="contact.html" class="nav-link active">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title">Get In Touch</h1>
+            <p class="hero-subtitle">
+              Collaborate with us for inclusive education
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-container">
+          <h2 class="section-title">Contact Information</h2>
+
+          <div class="grid grid-3">
+            <div class="card">
+              <h3 style="color: var(--primary-blue); margin-bottom: 1rem">
+                📍 Research Setting
+              </h3>
+              <p>
+                Sri Lanaka Institute of Information Technology (SLIIT)<br />
+                Malabe, Sri Lanka
+              </p>
+            </div>
+
+            <div class="card">
+              <h3 style="color: var(--primary-blue); margin-bottom: 1rem">
+                ✉️ Email
+              </h3>
+              <p>
+                <strong>General Inquiry:</strong><br />
+                <a href="mailto:visionbridge.research@gmail.com"
+                  >Thathsaramenusha2001@gmail.com</a
+                >
+              </p>
+              <!-- <p style="margin-top: 1rem">
+                <strong>Project Coordinator:</strong><br />
+                <a href="mailto:contact@visionbridge.lk"
+                  >contact@visionbridge.lk</a
+                >
+              </p> -->
+            </div>
+
+            <div class="card">
+              <h3 style="color: var(--primary-blue); margin-bottom: 1rem">
+                ☎️ Hotline
+              </h3>
+              <p>
+                <strong>Project Leader:</strong><br />
+                <a href="tel:++94703565146">+94 70 35 65 146</a>
+              </p>
+              <p style="margin-top: 1rem">
+                <strong>Availability:</strong><br />
+                Monday - Friday: 8:30 AM - 4:30 PM
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-container">
+          <h2 class="section-title">Send us a Message</h2>
+
+          <div style="max-width: 600px; margin: 0 auto">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="user_name"
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="user_email"
+                  placeholder="Enter your email address"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Select a subject</option>
+                  <option value="collaboration">Research Collaboration</option>
+                  <option value="technical">Technical Feedback</option>
+                  <option value="partnership">School Partnerships</option>
+                  <option value="other">Other Inquiry</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell us how we can help you with inclusive learning..."
+                  required
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <button
+                  type="submit"
+                  id="submitBtn"
+                  class="btn"
+                  style="width: 100%; padding: 1rem"
+                >
+                  Send Message
+                </button>
+              </div>
+
+              <div
+                id="formMessage"
+                style="
+                  display: none;
+                  margin-top: 1rem;
+                  padding: 1rem;
+                  border-radius: 8px;
+                  text-align: center;
+                "
+              ></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+<footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>VisionBridge Mobile</h4>
+          <p>
+            Professional research project exploring advanced computing systems
+            and methodologies.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <a href="domain.html">Research Domain</a><br />
+          <a href="milestones.html">Milestones</a><br />
+          <a href="documents.html">Documents</a><br />
+          <a href="slides.html">Slides</a>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <p>Email: Thathsaramenusha2001@gmail.com</p>
+          <p>Phone: 070 3565146</p>
+          <p>Address: Sri Lanka Institute of Infoormation Technology, 
+            Malabe, Sri Lanka</p>
+        </div>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VisionBridge Mobile. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
